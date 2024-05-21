@@ -3,7 +3,7 @@ function tabuada(){
     let num = document.getElementById('txtn')
     let tab = document.getElementById('seltab')
     if(num.value.length == 0){
-        alert('[ERRO!] Digite um número para saber sua taboada.')
+        alert('[ERRO!] Digite um número para saber sua tabuada.')
     }else{
         let n = Number(num.value)
         let i
